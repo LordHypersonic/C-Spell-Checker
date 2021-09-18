@@ -228,6 +228,7 @@ int main()
     string input,line;
     int len,flen,correct=0;
     while (1) {
+        correct = 0;
         cout<<"Enter the word: "; getline(cin,input);
         len = input.length();
         for (int i=0; i < len; i++)
